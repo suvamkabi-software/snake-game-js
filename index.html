@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GAME</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="image/snake.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="infos">
+          <div class="info">
+            <h3>👑 <span id="high-score">0</span></h3>
+          </div>
+
+          <div class="info">
+            <h3>🏆 <span id="score">0</span></h3>
+          </div>
+
+          <div class="info">
+            <h3>⏱️ <span id="time">00:00</span></h3>
+          </div>
+        </div>
+        <div class="board"></div>
+      </section>
+      <div class="modal">
+        <div class="Start-btn">
+          <span class="keybord">
+            <img src="image/controller.png" alt="key" />
+          </span>
+          <h3 class="title">Feed the Snake 🐭</h3>
+          <button class="start-btn">
+            <span class="ping"></span>
+            <span class="play-icon">
+              <svg viewBox="0 0 10 10" fill="none">
+                <path d="M2 1.5L8.5 5 2 8.5V1.5Z" fill="white" />
+              </svg>
+            </span>
+            START GAME
+          </button>
+        </div>
+        <div class="game-over">
+          <h3>GAME OVER</h3>
+          <button class="restart-btn">
+            <svg viewBox="0 0 16 16" fill="none">
+              <path
+                d="M13.5 8A5.5 5.5 0 1 1 8 2.5"
+                stroke="white"
+                stroke-width="1.6"
+                stroke-linecap="round"
+              />
+              <path d="M8 1.5L10.8 4.2H5.2L8 1.5Z" fill="white" />
+            </svg>
+            RESTART GAME
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
