@@ -1,4 +1,16 @@
-# 🐍 Snake Game JS
+## 🖥️ Live Preview
+👉[![🐍 Play Snake Game](https://img.shields.io/badge/🐍_Play_Snake_Game-00ff99?style=for-the-badge&logo=gamepad&logoColor=black)](https://arcstream.netlify.app/)
+
+
+
+
+
+███████╗███╗   ██╗ █████╗ ██╗  ██╗███████╗
+██╔════╝████╗  ██║██╔══██╗██║ ██╔╝██╔════╝
+███████╗██╔██╗ ██║███████║█████╔╝ █████╗  
+╚════██║██║╚██╗██║██╔══██║██╔═██╗ ██╔══╝  
+███████║██║ ╚████║██║  ██║██║  ██╗███████╗
+╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
 
 A classic **Snake Game** built entirely with **pure HTML, CSS, and JavaScript** — no frameworks, no dependencies, just the browser. Control the snake, eat the food, grow longer, and survive as long as you can without hitting the walls or yourself!
 
