@@ -7,7 +7,7 @@ const restartbutton = document.querySelector(".restart-btn");
 const highscoreElement = document.querySelector("#high-score");
 const scoreElement = document.querySelector("#score");
 const timeElement = document.querySelector("#time");
-const keybordshow = document.getElementById(".keybord");
+
 
 const blockHeight = 30;
 const blockWidth = 30;
@@ -67,11 +67,9 @@ function render() {
     clearInterval(Intervalid);
     clearInterval(timeIntervalid);
 
-    modal.style.display = "flex";
-
-    gameOverModal.style.display = "flex";
-
-    startgamemodal.style.display = "none";
+     modal.style.display = "flex";
+     gameOverModal.style.display = "flex";
+     startgamemodal.style.display = "none";
 
     return;
   }
@@ -167,10 +165,8 @@ restartbutton.addEventListener("click", () => {
   direction = "down";
   snake = [{ x: 1, y: 3 }];
   food = randomFood();
-
-  modal.style.display = "none";
-
-  Intervalid = setInterval(render, 100);
+ modal.style.display = "none";
+Intervalid = setInterval(render, 100);
 
   timeIntervalid = setInterval(() => {
     let [min, sec] = time.split("-").map(Number);
