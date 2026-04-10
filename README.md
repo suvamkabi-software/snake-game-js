@@ -1,5 +1,5 @@
 ## 🖥️ Live Preview
-👉[![🐍 Play Snake Game](https://img.shields.io/badge/🐍_Play_Snake_Game-00ff99?style=for-the-badge&logo=gamepad&logoColor=black)](https://arcstream.netlify.app/)
+👉[![🐍 Play Snake Game](https://img.shields.io/badge/🐍_Play_Snake_Game-00ff99?style=for-the-badge&logo=gamepad&logoColor=black)](https://codecobra1.netlify.app/)
 
 
 
